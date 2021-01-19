@@ -21,7 +21,6 @@ const SearchScreen = () => {
       />
 
       {errorMessage ? <Text> {errorMessage}</Text> : null}
-      <Text>We have found {results.length} results</Text>
       <ScrollView showsVerticalScrollIndicator={false}>
       <ResultList results={filterResultsByPrice('$')} title="Cost Effective"/>
       <ResultList results={filterResultsByPrice('$$')} title="Bit Pricier"/>

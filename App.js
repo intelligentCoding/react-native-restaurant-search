@@ -8,7 +8,7 @@ const navigator = createStackNavigator({
 }, {
   initialRouteName: 'Search',
   defaultNavigationOptions: {
-    title: 'Resturant Search'
+    title: 'Restaurants in Calgary'
   }
 });
 
