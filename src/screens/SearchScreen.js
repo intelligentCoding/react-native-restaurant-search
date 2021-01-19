@@ -14,7 +14,7 @@ const SearchScreen = () => {
   }
   console.log(results[0])
   return (
-    <View>
+    <View >
       <SearchBar 
       term={term} 
       onTermSubmitted = {() => searchApi(term)}
